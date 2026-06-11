@@ -19,13 +19,10 @@ class VaradPensalwar:
 
         # Core AI/ML Expertise
         self.ai_domain = {
-           {
 		    "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
 		    "Frameworks & Libraries": ["React.js", "Next.js"],
 		    "Backend & Database": ["PostgreSQL"],
 		    "Tools & Version Control": ["Git", "GitHub"]
-			}
-
         }
 
         self.current_focus = [
