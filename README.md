@@ -13,23 +13,25 @@ class VaradPensalwar:
     def __init__(self):
         self.name = "Varad Pensalwar"
         self.role = "Generative AI Engineer"
-        self.education = "B.Tech in AIML @ Sanjay Ghodawat University, Kolhapur"
-        self.location = "Nanded, Maharashtra, India"
-        self.passion = "Building Intelligent Systems that Transform Reality"
+        self.education = "Bachelor of Technology @ Sanjay Ghodawat University, Kolhapur"
+        self.location = "India"
+        self.passion = "Code that gives the web its soul."
 
         # Core AI/ML Expertise
         self.ai_domain = {
-            "Generative AI": ["LLMs", "LangChain", "Prompt Engineering"],
-            "Machine Learning": ["Model Training", "Data Preprocessing"],
-            "Deployment": ["APIs", "Model Serving"]
+           {
+		    "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
+		    "Frameworks & Libraries": ["React.js", "Next.js"],
+		    "Backend & Database": ["PostgreSQL"],
+		    "Tools & Version Control": ["Git", "GitHub"]
+			}
+
         }
 
         self.current_focus = [
-            "🔥 Large Language Models",
-            "🔥 LangChain",
-            "🔥 Generative AI Applications",
-            "🔥 RAG"
-			"🔥 Agentic AI"
+            "🔥 NextJS",
+            "🔥 Python",
+            "🔥 FastAPI"
         ]
 
     def get_mission(self):
