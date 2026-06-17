@@ -36,7 +36,7 @@ class VaradPensalwar:
         f"🎯 Role: {self.role}\n"
         f"🎓 Education: {self.education}\n"
         f"📍 Location: {self.location}\n"
-        f"💻 Tech Stack:\n{web_dev_domain}\n"
+        f"💻 Tech Stack:\n{self.web_dev_domain}\n"
         f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
         )
 
