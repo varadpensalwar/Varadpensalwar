@@ -26,9 +26,9 @@ class VaradPensalwar:
         }
 
         self.current_focus = [
-            "🔥 NextJS",
-            "🔥 Python",
-            "🔥 FastAPI"
+            "🔥 Next.JS",
+            "🔥 React.JS",
+            "🔥 Tailwind CSS"
         ]
 
     def get_mission(self):
