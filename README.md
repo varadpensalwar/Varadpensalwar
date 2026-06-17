@@ -28,7 +28,7 @@ class VaradPensalwar:
 
     def introduce(self):
         tech_stack = "\n".join(
-            f"• {category}: {', '.join(techs)}"
+            f" {category}: {', '.join(techs)}"
             for category, techs in self.web_dev_domain.items())
 
         return (
