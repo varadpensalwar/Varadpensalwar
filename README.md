@@ -32,13 +32,12 @@ class VaradPensalwar:
 
     def introduce(self):
         return (
-            f"👋 Hi, I'm {self.name}!\n"
-            f"🎯 Role: {self.role}\n"
-            f"🎓 Education: {self.education}\n"
-            f"📍 Location: {self.location}\n"
-			f"💻 Tech Stack: {self.web_dev_domain}\n"
-            f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
-
+        f"👋 Hi, I'm {self.name}!\n"
+        f"🎯 Role: {self.role}\n"
+        f"🎓 Education: {self.education}\n"
+        f"📍 Location: {self.location}\n"
+        f"💻 Tech Stack:\n{tech_stack}\n"
+        f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
         )
 
 # Initialize the AI Engineer
