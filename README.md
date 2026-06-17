@@ -18,30 +18,20 @@ class VaradPensalwar:
 
         # Core Web-Dev Experience
         self.web_dev_domain = {
-            "Languages & Styling": [
-                "HTML5",
-                "CSS3",
-                "JavaScript (ES6+)",
-                "TypeScript",
-                "Tailwind CSS"
+            "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"
             ],
-            "Frameworks & Libraries": [
-                "React.js",
-                "Next.js"
+            "Frameworks & Libraries": ["React.js", "Next.js"
             ],
             "Backend & Database": [
                 "PostgreSQL"
             ],
             "Tools & Version Control": [
-                "Git",
-                "GitHub"
+                "Git", "GitHub"
             ]
         }
 
         self.current_focus = [
-            "🔥 Next.JS",
-            "🔥 React.JS",
-            "🔥 Tailwind CSS"
+            "🔥 Next.JS", "🔥 React.JS", "🔥 Tailwind CSS"
         ]
 
     def introduce(self):
