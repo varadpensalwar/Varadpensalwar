@@ -1,6 +1,6 @@
 <h1 align="center">
 
-[![Email](https://img.shields.io/badge/Email-ContactMe-e64313?style=plastic&logo=gmail&logoColor=white)](mailto:varadpensalwar@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ContactMe-e64313?style=plastic&logo=gmail&logoColor=white)](mailto:varadpensalwar@duck.com)
 [![Portfolio](https://img.shields.io/badge/Portflio-Website-0abde3?style=plastic&logo=google-chrome&logoColor=white)](https://varadpensalwar.vercel.app/)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-000000?style=plastic&logo=x&logoColor=white)](https://x.com/VaradPensalwar)
 [![Linktree](https://img.shields.io/badge/Linktree-Varad-43E660?style=plastic&logo=linktree&logoColor=white)](https://linktr.ee/VaradPensalwar)
