@@ -15,10 +15,9 @@ class VaradPensalwar:
         self.role = "Frontend Developer"
         self.education = "Bachelor of Technology @ Sanjay Ghodawat University, Kolhapur"
         self.location = "India"
-        self.passion = "Code that gives the web its soul."
 
         # Core AI/ML Expertise
-        self.ai_domain = {
+        self.web_dev_domain = {
 		    "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
 		    "Frameworks & Libraries": ["React.js", "Next.js"],
 		    "Backend & Database": ["PostgreSQL"],
@@ -31,18 +30,15 @@ class VaradPensalwar:
             "🔥 Tailwind CSS"
         ]
 
-    def get_mission(self):
-        return "Pushing the boundaries of AI to create systems that augment human intelligence."
-
     def introduce(self):
         return (
             f"👋 Hi, I'm {self.name}!\n"
             f"🎯 Role: {self.role}\n"
             f"🎓 Education: {self.education}\n"
             f"📍 Location: {self.location}\n"
-            f"💡 Passion: {self.passion}\n"
-            f"🚀 Mission: {self.get_mission()}\n"
+			f"💻 Tech Stack: {self.web_dev_domain}\n"
             f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
+
         )
 
 # Initialize the AI Engineer
