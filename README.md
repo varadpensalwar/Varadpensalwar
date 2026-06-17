@@ -16,7 +16,7 @@ class VaradPensalwar:
         self.education = "Bachelor of Technology @ Sanjay Ghodawat University, Kolhapur"
         self.location = "India"
 
-        # Core AI/ML Expertise
+        # Core Web-Dev Experience
         self.web_dev_domain = {
 		    "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
 		    "Frameworks & Libraries": ["React.js", "Next.js"],
@@ -36,7 +36,7 @@ class VaradPensalwar:
         f"🎯 Role: {self.role}\n"
         f"🎓 Education: {self.education}\n"
         f"📍 Location: {self.location}\n"
-        f"💻 Tech Stack:\n{tech_stack}\n"
+        f"💻 Tech Stack:\n{web_dev_domain}\n"
         f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
         )
 
