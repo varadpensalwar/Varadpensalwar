@@ -24,7 +24,7 @@ class VaradPensalwar:
             "Tools & Version Control": ["Git", "GitHub"]
         }
 
-        self.current_focus = ["🔥 Next.JS", "🔥 React.JS", "🔥 Tailwind CSS"]
+        self.current_focus = ["Next.JS", "React.JS", "Tailwind CSS"]
 
     def introduce(self):
         tech_stack = "\n".join(
