@@ -18,10 +18,24 @@ class VaradPensalwar:
 
         # Core Web-Dev Experience
         self.web_dev_domain = {
-		    "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
-		    "Frameworks & Libraries": ["React.js", "Next.js"],
-		    "Backend & Database": ["PostgreSQL"],
-		    "Tools & Version Control": ["Git", "GitHub"]
+            "Languages & Styling": [
+                "HTML5",
+                "CSS3",
+                "JavaScript (ES6+)",
+                "TypeScript",
+                "Tailwind CSS"
+            ],
+            "Frameworks & Libraries": [
+                "React.js",
+                "Next.js"
+            ],
+            "Backend & Database": [
+                "PostgreSQL"
+            ],
+            "Tools & Version Control": [
+                "Git",
+                "GitHub"
+            ]
         }
 
         self.current_focus = [
@@ -31,18 +45,24 @@ class VaradPensalwar:
         ]
 
     def introduce(self):
-        return (
-        f"👋 Hi, I'm {self.name}!\n"
-        f"🎯 Role: {self.role}\n"
-        f"🎓 Education: {self.education}\n"
-        f"📍 Location: {self.location}\n"
-        f"💻 Tech Stack:\n{self.web_dev_domain}\n"
-        f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
+        tech_stack = "\n".join(
+            f"• {category}: {', '.join(techs)}"
+            for category, techs in self.web_dev_domain.items()
         )
 
-# Initialize the AI Engineer
-ai_engineer = VaradPensalwar()
-print(ai_engineer.introduce())
+        return (
+            f"👋 Hi, I'm {self.name}!\n"
+            f"🎯 Role: {self.role}\n"
+            f"🎓 Education: {self.education}\n"
+            f"📍 Location: {self.location}\n"
+            f"💻 Tech Stack:\n{tech_stack}\n"
+            f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
+        )
+
+
+# Initialize the Developer
+developer = VaradPensalwar()
+print(developer.introduce())
 ```
 
 <div align="center">
