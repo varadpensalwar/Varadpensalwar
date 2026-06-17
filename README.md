@@ -18,27 +18,18 @@ class VaradPensalwar:
 
         # Core Web-Dev Experience
         self.web_dev_domain = {
-            "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"
-            ],
-            "Frameworks & Libraries": ["React.js", "Next.js"
-            ],
-            "Backend & Database": [
-                "PostgreSQL"
-            ],
-            "Tools & Version Control": [
-                "Git", "GitHub"
-            ]
+            "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
+            "Frameworks & Libraries": ["React.js", "Next.js"],
+            "Backend & Database": ["PostgreSQL"],
+            "Tools & Version Control": ["Git", "GitHub"]
         }
 
-        self.current_focus = [
-            "🔥 Next.JS", "🔥 React.JS", "🔥 Tailwind CSS"
-        ]
+        self.current_focus = ["🔥 Next.JS", "🔥 React.JS", "🔥 Tailwind CSS"]
 
     def introduce(self):
         tech_stack = "\n".join(
             f"• {category}: {', '.join(techs)}"
-            for category, techs in self.web_dev_domain.items()
-        )
+            for category, techs in self.web_dev_domain.items())
 
         return (
             f"👋 Hi, I'm {self.name}!\n"
