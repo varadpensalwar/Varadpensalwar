@@ -20,10 +20,9 @@ class VaradPensalwar:
 
         # Core Web-Dev Experience
         self.web_dev_domain = {
-            "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
-            "Frameworks & Libraries": ["React.js", "Next.js"],
-            "Backend & Database": ["PostgreSQL"],
-            "Tools & Version Control": ["Git", "GitHub"]
+            "Languages": ["HTML", "CSS", "JavaScript", "TypeScript"],
+            "Libraries & Frameworks": ["React.js", "Tailwind CSS","shadcn/ui"],
+            "Tools & Technologies": ["Git", "GitHub","npm","VS Code"]
         }
 
         self.current_focus = ["Next.JS", "React.JS", "Tailwind CSS"]
