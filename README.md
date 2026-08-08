@@ -10,41 +10,44 @@
 
 <h6>Run This Python Code</h6>
 
-```python
-class VaradPensalwar:
-    def __init__(self):
-        self.name = "Varad Pensalwar"
-        self.role = "Frontend Developer"
-        self.education = "Bachelor of Technology @ Sanjay Ghodawat University, Kolhapur"
-        self.location = "India"
+```javascript
+class VaradPensalwar {
+    constructor() {
+        this.name = "Varad Pensalwar";
+        this.role = "Frontend Developer";
+        this.education = "Bachelor of Technology @ Sanjay Ghodawat University, Kolhapur";
+        this.location = "India";
 
-        # Core Web-Dev Experience
-        self.web_dev_domain = {
-            "Languages": ["HTML", "CSS", "JavaScript", "TypeScript"],
-            "Libraries & Frameworks": ["React.js", "Tailwind CSS","shadcn/ui"],
-            "Tools & Technologies": ["Git", "GitHub","npm","VS Code"]
-        }
+        // Core Web-Dev Experience
+        this.web_dev_domain = {
+            "Languages & Styling": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "Tailwind CSS"],
+            "Frameworks & Libraries": ["React.js", "Next.js"],
+            "Backend & Database": ["PostgreSQL"],
+            "Tools & Version Control": ["Git", "GitHub"]
+        };
 
-        self.current_focus = ["Next.JS"]
+        this.current_focus = ["Next.JS", "React.JS", "Tailwind CSS"];
+    }
 
-    def introduce(self):
-        tech_stack = "\n".join(
-            f" {category}: {', '.join(techs)}"
-            for category, techs in self.web_dev_domain.items())
+    introduce() {
+        const techStack = Object.entries(this.web_dev_domain)
+            .map(([category, techs]) => ` ${category}: ${techs.join(", ")}`)
+            .join("\n");
 
         return (
-            f"👋 Hi, I'm {self.name}!\n"
-            f"🎯 Role: {self.role}\n"
-            f"🎓 Education: {self.education}\n"
-            f"📍 Location: {self.location}\n"
-            f"💻 Tech Stack:\n{tech_stack}\n"
-            f"🔍 Current Focus: {', '.join(self.current_focus)}\n"
-        )
+            `👋 Hi, I'm ${this.name}!\n` +
+            `🎯 Role: ${this.role}\n` +
+            `🎓 Education: ${this.education}\n` +
+            `📍 Location: ${this.location}\n` +
+            `💻 Tech Stack:\n${techStack}\n` +
+            `🔍 Current Focus: ${this.current_focus.join(", ")}\n`
+        );
+    }
+}
 
-
-# Initialize the Developer
-developer = VaradPensalwar()
-print(developer.introduce())
+// Initialize the Developer
+const developer = new VaradPensalwar();
+console.log(developer.introduce());
 ```
 
 <div align="center">
