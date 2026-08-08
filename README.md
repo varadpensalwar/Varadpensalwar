@@ -8,7 +8,7 @@
 
 </h1>
 
-<h6>Run This Python Code</h6>
+<h6>Run This JavaScript Code</h6>
 
 ```javascript
 class VaradPensalwar {
