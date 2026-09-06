@@ -64,7 +64,7 @@ console.log(developer.introduce());
   <img src="https://komarev.com/ghpvc/?username=Varadpensalwar&color=6C63FF&style=plastic&label=Profile+Views" alt="Profile Views"/>
 
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=VaradPensalwar&bg_color=0d1117&color=ffffff&title_color=ff8c00&line=ff8c00&point=ffffff&area=true&area_color=ff8c00&hide_border=true&radius=10" alt="Activity Graph"/>
+    <img src="https://ghchart.xqsit94.in/dark:default/VaradPensalwar" alt="Activity Graph"/>
   </a>
 
 </div>
